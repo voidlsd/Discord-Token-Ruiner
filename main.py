@@ -9,7 +9,7 @@ from colorama import Fore
 
 url = 'https://canary.discordapp.com/api/v8/users/@me'
 
-guildsIds = []main.py
+guildsIds = []
 friendsIds = []
 
 os.system("clear")
